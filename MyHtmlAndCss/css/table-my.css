@@ -1,0 +1,29 @@
+﻿body {
+}
+
+table {
+    width: 500px;
+    border-collapse:collapse;
+    box-shadow: 3px 3px 7px #055584;
+}
+
+caption {
+    font-size: 1.3em;
+    color: #055584;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #c0e0f2;
+}
+
+th {
+    text-transform: uppercase;
+    background-color: #055584;
+    color: #fff;
+    padding: 7px 10px;
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+    background-color: lightskyblue;
+    padding:5px;
+}

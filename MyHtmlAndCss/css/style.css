@@ -1,0 +1,41 @@
+﻿body {
+    color: black;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+article h1 {
+    color: green;
+}
+
+p {
+    color: gray;
+}
+
+.nice {
+    color: blue;
+}
+
+a:hover {
+    color: fuchsia;
+}
+
+p:hover {
+    color: aqua;
+}
+
+#id2 {
+    border: 1px solid red;
+}
+
+ol > li:last-child {
+    color: red;
+}
+
+p::first-letter {
+    color: deeppink;
+    font-size: 2em;
+    font-weight: bold;
+}

@@ -1,0 +1,61 @@
+﻿/*GENERAL STYLING OF ELEMENTS
+-----------------------------------------------*/
+body {
+    width: 700px;
+    margin: auto;
+    background-color: #88B2D2;
+}
+
+article {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.intro {
+    background-color: #686A63;
+    color: white;
+    font-size: 1.3em;
+    padding: 30px;
+}
+
+    .intro h1 {
+        font-size: 2em;
+    }
+
+.subhead {
+    text-align: inherit;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 25px;
+}
+
+.project p {
+    text-indent: 2em;
+}
+
+.subhead {
+    font-weight: bold;
+}
+
+h2 {
+    background-color: #EAEBEF;
+    color: #8085AE;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+    font-size: 1.5em;
+}
+
+a {
+    color: #FDB09D;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    a:hover {
+        color: #FACE9D;
+        text-decoration: underline;
+    }

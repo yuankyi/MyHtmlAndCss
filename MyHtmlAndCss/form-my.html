@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/form-my.css" />
+</head>
+<body>
+    <form action="" method="post">
+        <h1>create a new account</h1>
+        <fieldset>
+            <h2>account</h2>
+            <div class="part">
+                <p class="row">
+                    <label for="firstname">first name<span class="required">*</span></label>
+                    <input type="text" id="firstname" name="firstname" required />
+                </p>
+                <p class="row">
+                    <label for="lastname">last name</label>
+                    <input type="text" id="lastname" name="lastname" required />
+                </p>
+                <p class="row">
+                    <label for="email">email</label>
+                    <input type="email" id="email" name="email" placeholder="xxx@xx.com" />
+                </p>
+                <p class="row">
+                    <label for="password">password</label>
+                    <input type="password" id="password" name="password" />
+                </p>
+            </div>
+        </fieldset>
+        <fieldset>
+            <h2>address</h2>
+            <div class="part">
+                <p class="row">
+                    <label for="streetaddress">street address</label>
+                    <input type="text" id="streetaddress" name="streetaddress" />
+                </p>
+                <p class="row">
+                    <label for="city">city</label>
+                    <input type="text" id="city" name="city" />
+                </p>
+                <p class="row">
+                    <label for="state">state</label>
+                    <select id="state" name="state">
+                        <option value="A">AAA</option>
+                        <option value="B">BBB</option>
+                        <option value="C">CCC</option>
+                    </select>
+                    <select id="state" name="state">
+                        <optgroup label="1111">
+                            <option value="A">AAA</option>
+                            <option value="B">BBB</option>
+                            <option value="C">CCC</option>
+                        </optgroup>
+                        <optgroup label="2222">
+                            <option value="A">AAA</option>
+                            <option value="B">BBB</option>
+                            <option value="C">CCC</option>
+                        </optgroup>
+                        <option value="D">DDD</option>
+                        <option value="D">DDD</option>
+                        <option value="D">DDD</option>
+                    </select>
+                </p>
+            </div>
+        </fieldset>
+        <fieldset>
+            <h2>public profile</h2>
+            <div class="part">
+                <p class="row">
+                    <label for="picture">picture</label>
+                    <input type="file" id="picture" name="picture" />
+                </p>
+                <div>
+                    <label for="website">website</label>
+                    <input type="url" id="website" name="website" placeholder="http://www.xxxx.com" />
+                    <p class="note">
+                        Have a homepage or a blog? Put the address here,
+                        beginning with http:// or https://.
+                    </p>
+                </div>
+                <p class="row">
+                    <label for="bio">bio</label>
+                    <textarea id="bio" name="bio" cols="40" rows="5"></textarea>
+                </p>
+                <div class="row">
+                    <fieldset class="radios">
+                        <legend class="radiolegend">gender:</legend>
+                        <p class="row">
+                            <input id="male" type="radio" name="gender" value="male" />
+                            <label for="male">male</label>
+                        </p>
+                        <p class="row">
+                            <input id="female" type="radio" name="gender" value="female" />
+                            <label for="female">female</label>
+                        </p>
+                    </fieldset>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <h2>emails</h2>
+            <div class="part checkboxes">
+                <p class="row">
+                    <input id="e1" name="e1" value="e1" type="checkbox" />
+                    <label class="checkboxlabel" for="e1">It is okay to email me with messages from other users.</label>
+                </p>
+                <p class="row">
+                    <input id="e2" name="e2" value="e2" type="checkbox" />
+                    <label class="checkboxlabel" for="e2">It is okay to email me with occasional promotions about our other products.</label>
+                </p>
+            </div>
+        </fieldset>
+        <input type="submit" value="create account" />
+    </form>
+</body>
+</html>
